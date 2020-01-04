@@ -19,11 +19,10 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}! If you have any questions on how to use me, read /help .
-I'm a group manager bot maintained by [This Guy](tg://user?id={}). 
+Hi lodu {}, my name is {}! If you have any questions on how to use me, read /help .
+I'm a group manager bot maintained by this noob guy  [This Guy](tg://user?id={}). 
 You can find the list of available commands with /help.
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
-[Click here to add me in your groups](https://telegram.me/saraak_bot?startgroup=add)
+If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund
 """
 
 
@@ -47,8 +46,8 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-If you want to donate, PM [Aditya](t.me/Aditya19v), and ask for donate. \
-If you really want to donate, it could really help me to upgrade my VPS."""
+If you want to donate, PM [Rowdy](t.me/AnonymousRowdy), and ask for donate. \
+If you really want to donate."""
 
 IMPORTED = {}
 MIGRATEABLE = []
